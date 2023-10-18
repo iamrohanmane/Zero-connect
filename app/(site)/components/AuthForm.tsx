@@ -108,7 +108,7 @@ const AuthForm = () => {
     <div className="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
       <div 
         className="
-        bg-slate-800
+        bg-slate-300
           px-4
           py-8
           shadow
@@ -128,7 +128,7 @@ const AuthForm = () => {
               errors={errors}
               required
               id="name" 
-              label={<span style={{ color: 'white' }}>Name</span>}
+              label="Name"
             />
           )}
           <Input 
@@ -137,7 +137,7 @@ const AuthForm = () => {
             errors={errors}
             required
             id="email" 
-            label={<span style={{ color: 'white' }}>Email address</span>} 
+            label="Email address" 
             type="email"
           />
           <Input 
@@ -146,7 +146,7 @@ const AuthForm = () => {
             errors={errors}
             required
             id="password" 
-            label={<span style={{ color: 'white' }}>Password</span>} 
+            label="Password" 
             type="password"
           />
           <div>
